@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+
+  // 方針：フォルダ設定（.vscode）側に記載する。
+  // 補足（設定の優先度）：フォルダ設定 > workspace設定 > ユーザー設定
+    "settings": {
+  },
+  "extensions": {
+    "recommendations": []
+  },
+}

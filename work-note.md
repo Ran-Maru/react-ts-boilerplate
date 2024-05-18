@@ -48,6 +48,31 @@ added 159 packages, and audited 160 packages in 34s
 found 0 vulnerabilities
 react-ts-boilerplate $ git init
 Initialized empty Git repository in /Users/t-yuya/Desktop/react_ts_boilerplate/react-ts-boilerplate/.git/
+```
+
+### prettier導入
+
+- 下記コマンドを実行
+
+```sh
+$ npm install --save-dev --save-exact prettier
+
+added 1 package, and audited 161 packages in 3s
+
+39 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+- vscode設定ファイル等修正
+
+```sh
+# ファイルフォーマットコマンド
+$ npx prettier . --write
+
+# ファイルフォーマット済か判定するコマンド（CIで使えそう）
+$ npx prettier . --check
 
 ```
 
