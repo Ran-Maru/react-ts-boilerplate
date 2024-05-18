@@ -79,8 +79,9 @@ $ npx prettier . --check
 ## ToDo リスト
 
 - node.js の適宜アップデート
-- editorconfig の導入
-- prettier の導入
+- editorconfig がファイル保存時に動くことを確認
+- prettier がファイル保存時に動くことを確認
+- pre-commit設定（https://prettier.io/docs/en/precommit）
 - eslint を初期ルールから修正する。
 - tsconfig ファイルの修正
 - vite.config.ts の修正
