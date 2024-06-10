@@ -80,6 +80,7 @@ $ npx prettier . --check
 
 - node.js の適宜アップデート
 - editorconfig がファイル保存時に動くことを確認
+- stylelint（CSSのLinter）導入
 - pre-commit設定（https://prettier.io/docs/en/precommit）
 - eslint を初期ルールから修正する。
 - tsconfig ファイルの修正
