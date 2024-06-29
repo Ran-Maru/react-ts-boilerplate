@@ -8,6 +8,10 @@
   // 方針：フォルダ設定（.vscode）側に記載する。
   // 補足（設定の優先度）：フォルダ設定 > workspace設定 > ユーザー設定
     "settings": {
+    // prettierで実現できないフォーマットのみ記載
+    // ToDo: VSCode独自の機能よりeditorconfigのほうが優先度高くしよう！
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
   },
   "extensions": {
     "recommendations": []
